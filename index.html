@@ -1,139 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
     <meta name="viewport" content="width=1440">
     
     <title>Dr. Rich Kalina</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Allura:wght@400&display=swap" rel="stylesheet">
-    
-    <style>
-        html { scroll-behavior: smooth; }
-        body { margin: 0; padding: 0; }
-    </style>
-</head>
-<body>
-
-    <div style="width:1440px;background-color:#ffffff;position:relative;overflow:hidden;margin:0 auto">
-
-        <div style="width:1440px;height:750px;position:relative;z-index:26;">
-            
-            <div style="display:flex;width:1170px;justify-content:space-between;align-items:center;position:relative;z-index:4;margin:40px 0 0 135px">
-                <div style="font-family:Poppins, sans-serif;font-size:30px;font-weight:700;color:#ffffff;z-index:6">
-                    Dr. Rich Kalina
-                </div>
-                
-                <div style="display:flex;width:624px;gap:40px;align-items:center;">
-                    <div style="display:flex;width:440px;gap:40px;align-items:center;">
-                        <a href="#" style="text-decoration:none;font-family:Poppins, sans-serif;font-size:16px;font-weight:600;color:#ffffff;text-transform:uppercase;">Home</a>
-                        <a href="#about" style="text-decoration:none;font-family:Poppins, sans-serif;font-size:16px;font-weight:600;color:#ffffff;text-transform:uppercase;">About</a>
-                        <a href="#specialties" style="text-decoration:none;font-family:Poppins, sans-serif;font-size:16px;font-weight:600;color:#ffffff;text-transform:uppercase;">Specialties</a>
-                        <a href="#achievements" style="text-decoration:none;font-family:Poppins, sans-serif;font-size:16px;font-weight:600;color:#ffffff;text-transform:uppercase;">Achievements</a>
-                    </div>
-                    
-                    <a href="#contact" style="text-decoration:none;display:flex;width:144px;padding:10px 0;justify-content:center;align-items:center;background-color:#00cde5;color:#ffffff;font-family:Poppins, sans-serif;font-weight:600;text-transform:uppercase;">
-                        Contact
-                    </a>
-                </div>
-            </div>
-
-            <div style="width:1440px;height:750px;background-color:#03214c;opacity:0.7;position:absolute;top:0;left:0;z-index:2"></div>
-            <div style="width:519px;height:654px;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/r40g3gcY5A.png);background-size:cover;position:absolute;top:96px;left:770px;z-index:16"></div>
-            
-            <div style="position:absolute;top:217px;left:135px;z-index:17;width:670px;">
-                <div style="display:inline-block;padding:10px 25px;background-color:rgba(255, 255, 255, 0.1);border-radius:100px;border:1px solid rgba(147, 147, 147, 0.3);backdrop-filter:blur(20px);color:#ffffff;font-family:Poppins, sans-serif;font-size:20px;font-weight:500;">
-                    Expert in Ophthalmic Care & Research
-                </div>
-                <h1 style="font-family:Poppins, sans-serif;font-size:46px;font-weight:700;color:#ffffff;margin:20px 0;">Over 25 Years of Excellence in Ophthalmology</h1>
-                <p style="font-family:Poppins, sans-serif;font-size:30px;font-weight:500;color:#ffffff;margin:0 0 20px 0;">Specializing in medical eyecare and the treatment of cataracts, glaucoma, retina conditions, and diabetic eyecare</p>
-                <a href="#contact" style="text-decoration:none;display:inline-flex;padding:10px 30px;background-color:#00cde5;color:#ffffff;font-family:Poppins, sans-serif;font-weight:600;text-transform:uppercase;">Contact</a>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allura:wght@400&display=swap" />
+    <link rel="stylesheet" href="index.css" />
+    <style>html { scroll-behavior: smooth; }</style>
+  </head>
+  <body>
+    <div
+      style="width:100%; max-width:1440px; height:auto;background-color:#ffffff;position:relative;overflow:hidden;margin:0 auto"
+      class="main-container"
+    >
+      <div
+        style="width:1440px;height:750px;position:relative;overflow:visible auto;z-index:26;margin:0 0 0 0"
+      >
+        <div
+            style="display:flex;width:1170px;justify-content:space-between;align-items:center;flex-wrap:nowrap;position:relative;z-index:4;margin:40px 0 0 135px"
+        >
+          <div
+            style="display:flex;height:36px;justify-content:flex-start;align-items:flex-start;font-family:Poppins, var(--default-font-family);font-size:30px;font-weight:700;line-height:36px;color:#ffffff;position:relative;text-align:left;white-space:nowrap;z-index:6"
+          >
+            Dr. Rich Kalina
+          </div>
+          <div
+            style="display:flex;width:624px;gap:40px;align-items:center;flex-shrink:0;flex-wrap:nowrap;position:relative;z-index:7"
+          >
+            <div
+              style="display:flex;width:440px;gap:40px;align-items:center;flex-shrink:0;flex-wrap:nowrap;position:relative;z-index:8"
+            >
+              <a href="#"
+                style="cursor:pointer;text-decoration:none;height:24px;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left;text-transform:uppercase;white-space:nowrap;z-index:9"
+                >Home</a
+              ><a href="#about"
+                style="cursor:pointer;text-decoration:none;height:24px;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left;text-transform:uppercase;white-space:nowrap;z-index:10"
+                >About</a
+              ><a href="#specialties"
+                style="cursor:pointer;text-decoration:none;height:24px;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left;text-transform:uppercase;white-space:nowrap;z-index:11"
+                >Specialties</a
+              ><a href="#achievements"
+                style="cursor:pointer;text-decoration:none;height:24px;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left;text-transform:uppercase;white-space:nowrap;z-index:12"
+                >Achievements</a
+              >
             </div>
             
-            <div style="font-family:Allura, cursive;font-size:70px;color:#ffffff;position:absolute;top:655px;left:766px;width:519px;text-align:center;z-index:26;text-shadow:2px 2px 1px rgba(0,0,0,0.8);">Dr. Rich Kalina</div>
+            <a href="#contact"
+              style="cursor:pointer;text-decoration:none;display:flex;width:144px;padding:10px 20px 10px 20px;gap:5px;justify-content:center;align-items:center;flex-shrink:0;flex-wrap:nowrap;background-color:#00cde5;position:relative;z-index:13"
+            >
+              <span
+                style="height:24px;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left;text-transform:uppercase;white-space:nowrap;z-index:14"
+                >Contact</span
+              >
+            </a>
+          </div>
         </div>
+        <div
+          style="width:1440px;height:750px;background-color:#03214c;opacity:0.7;position:absolute;top:0;left:0;z-index:2"
+        ></div>
+        <div
+          style="width:519px;height:654px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/r40g3gcY5A.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:96px;left:770px;z-index:16"
+        ></div>
+        <div
+          style="display:flex;width:670px;height:398px;flex-direction:column;gap:12px;align-items:flex-start;flex-wrap:nowrap;position:absolute;top:217px;left:135px;z-index:17"
+        >
+          <div
+            style="display:flex;width:434px;padding:10px 25px 10px 25px;gap:10px;justify-content:center;align-items:center;flex-shrink:0;flex-wrap:nowrap;background-color:rgba(255, 255, 255, 0.1);border-radius:100px;border:0.92px solid rgba(147, 147, 147, 0.3);position:relative;backdrop-filter:blur(22.927px);z-index:18"
+          >
+            <span
+              style="height:30px;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:20px;font-weight:500;line-height:30px;color:#ffffff;position:relative;text-align:left;white-space:nowrap;z-index:19"
+              >Expert in Ophthalmic Care & Research</span
+            >
+          </div>
+          <span
+            style="display:flex;width:670px;min-width:0;height:117px;justify-content:flex-start;align-items:flex-start;align-self:stretch;flex-shrink:0;font-family:Poppins, var(--default-font-family);font-size:46px;font-weight:700;line-height:58px;color:#ffffff;position:relative;text-align:left;z-index:20"
+            >Over 25 Years of Excellence in Ophthalmology</span
+          >
+          <div
+            style="display:flex;min-width:0;padding:0 0 20px 0;gap:10px;justify-content:center;align-items:center;align-self:stretch;flex-shrink:0;flex-wrap:nowrap;position:relative;z-index:21"
+          >
+            <span
+              style="display:flex;width:670px;height:131px;justify-content:flex-start;align-items:flex-start;flex-grow:1;flex-shrink:0;flex-basis:0;font-family:Poppins, var(--default-font-family);font-size:30px;font-weight:500;line-height:45px;color:#ffffff;position:relative;text-align:left;z-index:22"
+              >Specializing in medical eyecare and the treatment of cataracts,
+              glaucoma, retina conditions, and diabetic eyecare</span
+            >
+          </div>
+          <a href="#contact"
+            style="cursor:pointer;text-decoration:none;display:flex;width:144px;padding:10px 20px 10px 20px;gap:5px;justify-content:center;align-items:center;flex-shrink:0;flex-wrap:nowrap;background-color:#00cde5;position:relative;z-index:23"
+          >
+            <span
+              style="height:24px;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left;text-transform:uppercase;white-space:nowrap;z-index:24"
+              >Contact</span
+            >
+            <div
+              style="width:20px;height:20px;flex-shrink:0;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/0ZTBO8tXhk.png);background-size:cover;background-repeat:no-repeat;position:relative;overflow:hidden;z-index:25"
+            ></div>
+          </a>
+        </div>
+        <span
+          style="display:flex;width:519px;height:66px;justify-content:center;align-items:flex-start;font-family:Allura, var(--default-font-family);font-size:70px;font-weight:400;line-height:66px;color:#ffffff;position:absolute;top:655px;left:766px;text-align:center;white-space:nowrap;text-shadow:2px 2px 1px rgba(0, 0, 0, 0.8);z-index:26"
+          >Dr. Rich Kalina</span
+        >
+      </div>
 
-        <div id="about" style="width:1205px;height:757px;position:relative;margin:103px 0 0 135px">
-            <div style="width:232px;height:740px;background-color:#00cde5;position:absolute;top:17px;left:0;"></div>
-            <div style="width:206px;height:217px;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/15r3OtGNoW.png);background-size:cover;position:absolute;top:0;left:425px;z-index:30"></div>
+      <div
+        id="about"
+        style="width:1205px;height:757px;position:relative;z-index:36;margin:103px 0 0 135px"
+      >
+        <div
+          style="width:206px;height:217px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/15r3OtGNoW.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:0;left:425px;z-index:30"
+        ></div>
+        <div
+          style="width:232px;height:740px;background-color:#00cde5;position:absolute;top:17px;left:0;z-index:29"
+        >
+          <div
+            style="width:88px;height:557px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/zESEmb4A3M.png);background-size:cover;background-repeat:no-repeat;position:relative;z-index:35;margin:91px 0 0 7px"
+          ></div>
+        </div>
+        <div
+          style="display:flex;width:570px;height:739px;flex-direction:column;gap:12px;align-items:flex-start;flex-wrap:nowrap;position:absolute;top:17px;left:635px;z-index:36"
+        >
+          <span
+            style="min-width:0;height:69px;align-self:stretch;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:45px;font-weight:700;line-height:67.5px;color:#000000;position:relative;text-align:left;white-space:nowrap;z-index:37"
+            >About Me</span
+          ><span
+            style="display:flex;width:535px;height:658px;justify-content:flex-start;align-items:flex-start;flex-shrink:0;font-family:Poppins, var(--default-font-family);font-size:14px;font-weight:400;line-height:21px;color:#000000;position:relative;text-align:left;z-index:38"
+            >Dr. Kalina has more than 24 years of experience in clinical patient
+            care and in developing high-performing cultures and teams in the
+            ophthalmic industry. In 2008, he joined Valley Eye Specialists as a
+            Medical Optometrist and the Director of Professionals Relations. He
+            is the founder of the Valley Eye Network, one of Arizona’s largest
+            optometric and physician based referral centers specializing in
+            ocular disease and anterior segment surgical care. In addition, he
+            clinically specializes in cataracts, LASIK, retinal conditions,
+            post-operative surgical care, glaucoma, dry eyes, diabetic eye care,
+            and ocular disease in their ophthalmology offices across Central
+            Arizona.<br /><br />Prior to that appointment, Dr. Kalina was Center
+            Director at Marion Eye Center, one of the largest integrated
+            ophthalmology practices in the Midwest. He was a leader in charge of
+            practice development, expansion, training, and marketing. During
+            this time he helped to lead and expand the practice to over 32+
+            offices, 3 surgery centers and a large scale optical manufacturing
+            lab during his 10 years with the firm.<br /><br />His expansive
+            interests have resulted in being a research investigator for
+            multiple studies and clinical trials. In addition, he has extensive
+            experience in tear film chemistry and dry eye translational research
+            focused on clinical products and pharmaceuticals for the ocular
+            surface. Prior to attending UAB, he served as an R&D biochemist at
+            Sigma-Aldrich in St. Louis, MO, developing medical immunoassays for
+            Virology and Rheumatology. He has submitted numerous 510k
+            applications to the FDA.<br /><br />Richard Kalina received his
+            Doctor of Optometry degree from the University of Alabama at
+            Birmingham, earning his MS in vision science research and MPH in
+            healthcare organization and policy. He is a Fellow of the American
+            Academy of Optometry and was awarded the AZOA President’s Award in
+            2014.</span
+          >
+        </div>
+        <div
+          style="width:471.471px;height:579px;position:absolute;top:98px;left:100px;z-index:31;-webkit-mask-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/u9LXRkJ59u.png);-webkit-mask-size:cover"
+        >
+          <div
+            style="width:549.223px;height:634.419px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/StQf9OacQA.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:-1px;left:-33px;z-index:32"
+          ></div>
+          <div
+            style="width:479px;height:587px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/k93HMhcX7D.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:-1px;left:-8px;z-index:33"
+          ></div>
+          <span
+            style="display:flex;width:56px;height:18px;justify-content:center;align-items:flex-start;font-family:Poppins, var(--default-font-family);font-size:12px;font-weight:400;line-height:18px;color:#000000;position:absolute;top:494px;left:250px;text-align:center;white-space:nowrap;z-index:34"
+            >Dr. Kalina</span
+          >
+        </div>
+      </div>
+
+      <div
+        id="specialties"
+        style="width:1440px;height:662px;font-size:0px;background-color:#03214c;position:relative;overflow:visible auto;z-index:40;margin:120px 0 0 0"
+      >
+        <span
+          style="display:flex;width:1096px;height:119px;justify-content:center;align-items:flex-start;font-family:Poppins, var(--default-font-family);font-size:45px;font-weight:700;line-height:67.5px;color:#ffffff;position:relative;text-align:center;z-index:42;margin:80px 0 0 172px"
+          >Experience in treating all eye conditions and providing special care
+          for</span
+        >
+        <div
+          style="height:662px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/uD7cbQd6Ps.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:0;left:0;right:0;z-index:41"
+        ></div>
+        <div
+          style="width:370px;height:300px;background-color:rgba(255, 255, 255, 0.1);border-radius:20px;border:0.92px solid rgba(147, 147, 147, 0.3);position:absolute;top:259px;left:135px;backdrop-filter:blur(22.927px);z-index:44"
+        >
+          <div
+            style="width:126px;height:158px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/aPvo0wkH4G.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:24.083px;left:28.083px;overflow:hidden;z-index:49"
+          >
+            <div
+              style="width:36px;height:36px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/VekwDi8DZH.png);background-size:cover;background-repeat:no-repeat;border-radius:50%;position:relative;z-index:48;margin:14px 0 0 18px"
+            ></div>
+          </div>
+          <div
+            style="display:flex;width:311px;height:96px;flex-direction:column;gap:15px;align-items:flex-start;flex-wrap:nowrap;position:absolute;top:143.083px;left:28.083px;z-index:45"
+          >
+            <span
+              style="min-width:0;height:39px;align-self:stretch;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:30px;font-weight:600;line-height:39px;color:#ffffff;position:relative;text-align:left;white-space:nowrap;z-index:46"
+              >Cataracts</span
+            ><span
+              style="display:flex;width:311px;min-width:0;height:42px;justify-content:flex-start;align-items:flex-start;align-self:stretch;flex-shrink:0;font-family:Poppins, var(--default-font-family);font-size:14px;font-weight:400;line-height:21px;color:#ffffff;position:relative;text-align:left;z-index:47"
+              >Providing medical care and treatment for cataracts using the
+              newest technologies</span
+            >
+          </div>
+        </div>
+        <div
+          style="width:370px;height:300px;background-color:rgba(255, 255, 255, 0.1);border-radius:20px;border:0.92px solid rgba(147, 147, 147, 0.3);position:absolute;top:259px;left:535px;backdrop-filter:blur(22.927px);z-index:51"
+        >
+          <div
+            style="width:129px;height:158px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/dZUO8fEpmi.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:22.083px;left:23.083px;overflow:hidden;z-index:56"
+          >
+            <div
+              style="width:36px;height:36px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/5KQdfGegoW.png);background-size:cover;background-repeat:no-repeat;border-radius:50%;position:relative;z-index:55;margin:53px 0 0 46px"
+            ></div>
+          </div>
+          <div
+            style="display:flex;width:311px;height:117px;flex-direction:column;gap:15px;align-items:flex-start;flex-wrap:nowrap;position:absolute;top:143.083px;left:28.083px;z-index:52"
+          >
+            <span
+              style="min-width:0;height:39px;align-self:stretch;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:30px;font-weight:600;line-height:39px;color:#ffffff;position:relative;text-align:left;white-space:nowrap;z-index:53"
+              >LASIK</span
+            ><span
+              style="display:flex;width:311px;min-width:0;height:63px;justify-content:flex-start;align-items:flex-start;align-self:stretch;flex-shrink:0;font-family:Poppins, var(--default-font-family);font-size:14px;font-weight:400;line-height:21px;color:#ffffff;position:relative;text-align:left;z-index:54"
+              >Consultations for Lasik, PRK, ICL’s, and lens surgeries to
+              decrease dependence on glasses and contact lenses</span
+            >
+          </div>
+        </div>
+        <div
+          style="width:370px;height:300px;background-color:rgba(255, 255, 255, 0.1);border-radius:20px;border:0.92px solid rgba(147, 147, 147, 0.3);position:absolute;top:259px;left:935px;backdrop-filter:blur(22.927px);z-index:58"
+        >
+          <div
+            style="width:126px;height:157px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/Kq24HGf98s.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:27.083px;left:28.083px;overflow:hidden;z-index:63"
+          ></div>
+          <div
+            style="width:36px;height:36px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/JerqPtrSxA.png);background-size:cover;background-repeat:no-repeat;border-radius:50%;position:absolute;top:107.083px;left:124.083px;z-index:62"
+          ></div>
+          <div
+            style="display:flex;width:311px;height:121px;flex-direction:column;gap:15px;align-items:flex-start;flex-wrap:nowrap;position:absolute;top:143.083px;left:28.083px;z-index:59"
+          >
+            <span
+              style="min-width:0;height:39px;align-self:stretch;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:30px;font-weight:600;line-height:39px;color:#ffffff;position:relative;text-align:left;white-space:nowrap;z-index:60"
+              >Glaucoma</span
+            ><span
+              style="display:flex;width:311px;min-width:0;height:67px;justify-content:flex-start;align-items:flex-start;align-self:stretch;flex-shrink:0;font-family:Poppins, var(--default-font-family);font-size:14px;font-weight:400;line-height:21px;color:#ffffff;position:relative;text-align:left;z-index:61"
+              >Comprehensive care, management, and treatment of glaucoma to help
+              preserve your vision for a lifetime <br
+            /></span>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="achievements"
+        style="width:1305px;height:735px;position:relative;z-index:68;margin:5px 0 0 0"
+      >
+        <div
+          style="width:263px;height:362px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/DsLRiuwXLA.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:0;left:0;z-index:65"
+        ></div>
+        <div
+          style="width:570px;height:615px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/Bp5E144rcj.png);background-size:cover;background-repeat:no-repeat;border-radius:30px;position:absolute;top:120px;left:135px;z-index:66"
+        ></div>
+        <div
+          style="display:flex;width:570px;height:241px;flex-direction:column;gap:12px;align-items:flex-start;flex-wrap:nowrap;position:absolute;top:120px;left:735px;z-index:68"
+        >
+          <span
+            style="display:flex;width:570px;min-width:0;height:110px;justify-content:flex-start;align-items:flex-start;align-self:stretch;flex-shrink:0;font-family:Poppins, var(--default-font-family);font-size:45px;font-weight:700;line-height:54px;color:#000000;position:relative;text-align:left;z-index:69"
+            >Achievements & Leadership</span
+          ><span
+            style="display:flex;width:535px;height:119px;justify-content:flex-start;align-items:flex-start;flex-shrink:0;font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:400;line-height:24px;color:#000000;position:relative;text-align:left;z-index:70"
+            >As the founder of the Valley Eye network and VP of professional
+            services at two of Arizona’s largest Ophthalmology groups, Dr.
+            Kalina has led successful eye care teams, expanded practices and
+            services, focused on patient care, and contributed to groundbreaking
+            ophthalmic research.</span
+          >
+        </div>
+        <div
+          style="width:570px;height:270px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/OtuVwRryt0.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:393px;left:735px;z-index:67"
+        ></div>
+      </div>
+      <div
+        style="width:1440px;height:780px;background-color:#03214c;position:relative;z-index:72;margin:120px 0 0 0"
+      >
+        <div
+          style="height:780px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/pSCiAGkyyi.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:0;left:0;right:0;z-index:73"
+        ></div>
+        <div
+          style="width:358px;height:605px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/rtPNBFfDps.png);background-size:cover;background-repeat:no-repeat;border-radius:20px;position:absolute;top:88px;left:547px;z-index:77"
+        >
+          <div
+            style="width:358px;height:605px;background-color:#000000;border-radius:20px;opacity:0.5;position:absolute;top:0;left:0;z-index:78"
+          ></div>
+        </div>
+        <div
+          style="width:585px;height:562px;background-color:rgba(255, 255, 255, 0.1);border-radius:20px;border:0.92px solid rgba(147, 147, 147, 0.3);position:absolute;top:110px;left:720px;backdrop-filter:blur(22.927px);z-index:79"
+        >
+          <div
+            style="width:500px;height:502px;font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:400;line-height:24px;position:relative;text-align:left;z-index:80;margin:30px 0 0 43px"
+          >
+            <span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left"
+              >University of Alabama at Birmingham Medical Center</span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:400;line-height:24px;color:#ffffff;position:relative;text-align:left"
+            >
+              O.D., Doctor of Optometry, 1994 – 1998 M.S, Physiological Optics,
+              Ocular Immunology, 1994 – 1998 </span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:15px;font-weight:400;line-height:24px;color:#ffffff;position:relative;text-align:left"
+              >M.P.H., Public Health; Healthcare organization & policy, 1994 –
+              1998<br /></span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:400;line-height:24px;color:#ffffff;position:relative;text-align:left"
+              ><br /></span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left"
+              >Medical Optometrist, VP of Professional Services, </span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:400;line-height:24px;color:#ffffff;position:relative;text-align:left"
+              >Arizona Ophthalmology, Medical Optometrist, Clinical Center
+              Director, December 2022 – December 2024<br /><br /></span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left"
+              >Medical Optometrist, Director of Professional Relations</span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:400;line-height:24px;color:#ffffff;position:relative;text-align:left"
+            >
+              Valley Eye Specialists, Jun 2008 – November 2022<br /><br /></span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left"
+              >Medical Optometrist, Refractive Surgery Center Director</span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:400;line-height:24px;color:#ffffff;position:relative;text-align:left"
+            >
+              Nationwide Vision and Laser Center, Jan 2008 – Jun 2008<br /><br /></span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left"
+              >Consultative Optometrist, Refractive Surgery Center
+              Director</span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:400;line-height:24px;color:#ffffff;position:relative;text-align:left"
+            >
+              Barnet, Dulaney, Perkins Eye Center, Jan 2007 – Dec 2007<br /><br /></span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left"
+              >Medical optometrist, Clinic Director</span
+            ><span
+              style="font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:400;line-height:24px;color:#ffffff;position:relative;text-align:left"
+            >
+              Marion Eye Centers, Sep 1999 – Oct 2007</span
+            >
+          </div>
+        </div>
+        <div
+          style="display:flex;width:372px;height:322px;flex-direction:column;gap:20px;align-items:flex-start;flex-wrap:nowrap;position:absolute;top:229px;left:135px;z-index:74"
+        >
+          <span
+            style="display:flex;width:372px;min-width:0;height:122px;justify-content:flex-start;align-items:flex-start;align-self:stretch;flex-shrink:0;font-family:Poppins, var(--default-font-family);font-size:50px;font-weight:700;line-height:60px;color:#ffffff;position:relative;text-align:left;overflow:hidden;text-overflow:initial;z-index:75"
+            >Education & <br />Experience</span
+          ><span
+            style="display:flex;width:372px;height:180px;justify-content:flex-start;align-items:flex-start;flex-shrink:0;font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:400;line-height:24px;color:#ffffff;position:relative;text-align:left;z-index:76"
+            >Dr. Kalina holds an O.D., M.S., and M.P.H. from the University of
+            Alabama at Birmingham and is a Fellow of the American Academy of
+            Optometry. His dedication to both patient care and research makes
+            him a trusted leader in ophthalmology.</span
+          >
+        </div>
+      </div>
+
+      <div
+        id="contact"
+        style="width:1440px;height:700px;background-color:#161616;position:relative;overflow:visible auto;z-index:82;margin:-5px 0 0 0"
+      >
+        <div
+          style="display:flex;width:1181px;gap:30px;align-items:center;flex-wrap:nowrap;position:relative;z-index:83;margin:100px 0 0 124px"
+        >
+          <div
+            style="width:581px;height:538px;flex-shrink:0;position:relative;z-index:84"
+          >
+            <div
+              style="display:flex;width:528px;flex-direction:column;gap:14px;align-items:flex-start;flex-wrap:nowrap;position:relative;z-index:85;margin:0 0 0 11px"
+            >
+              <span
+                style="display:flex;width:470px;height:214px;justify-content:flex-start;align-items:flex-start;flex-shrink:0;font-family:Poppins, var(--default-font-family);font-size:100px;font-weight:700;line-height:110px;color:#ffffff;position:relative;text-align:left;z-index:86"
+                >Let’s<br />Connect.</span
+              ><span
+                style="display:flex;width:528px;min-width:0;height:69px;justify-content:flex-start;align-items:flex-start;align-self:stretch;flex-shrink:0;font-family:Poppins, var(--default-font-family);font-size:20px;font-weight:400;line-height:30px;color:#999999;position:relative;text-align:left;z-index:87"
+                >For consultations, inquiries, or appointments, please use the
+                contact details below or fill out the form</span
+              >
+              <div
+                style="width:150px;height:92px;flex-shrink:0;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/yp5kVyRTm6.png);background-size:cover;background-repeat:no-repeat;position:absolute;bottom:187px;left:282px;z-index:88"
+              ></div>
+            </div>
+            <div
+              style="display:flex;width:214px;gap:20px;align-items:center;flex-wrap:nowrap;position:relative;z-index:89;margin:23px 0 0 0"
+            >
+              <div
+                style="width:37px;height:38px;flex-shrink:0;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/ebBJo4jV6u.png);background-size:cover;background-repeat:no-repeat;position:relative;overflow:hidden;z-index:90"
+              ></div>
+              <div
+                style="width:29px;height:30px;flex-shrink:0;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/OwtTEN5aYt.png);background-size:cover;background-repeat:no-repeat;position:relative;overflow:hidden;z-index:91"
+              ></div>
+              <div
+                style="width:38px;height:38px;flex-shrink:0;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/md3Rk5ADFG.png);background-size:cover;background-repeat:no-repeat;position:relative;overflow:hidden;z-index:92"
+              ></div>
+              <div
+                style="width:50px;height:50px;flex-shrink:0;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/ooxTgzCAzC.png);background-size:cover;background-repeat:no-repeat;position:relative;overflow:hidden;z-index:93"
+              ></div>
+            </div>
+            <div
+              style="width:570px;height:98px;font-family:Poppins, var(--default-font-family);font-size:28px;font-weight:700;line-height:40px;position:relative;text-align:left;z-index:94;margin:29px 0 0 11px"
+            >
+              <span
+                style="font-family:Poppins, var(--default-font-family);font-size:28px;font-weight:700;line-height:40px;color:#ffffff;position:relative;text-align:left"
+                >Phone: </span
+              ><span
+                style="font-family:Poppins, var(--default-font-family);font-size:26px;font-weight:400;line-height:40px;color:#ffffff;position:relative;text-align:left"
+                >Active starting January 2, 2025<br /></span
+              ><span
+                style="font-family:Poppins, var(--default-font-family);font-size:28px;font-weight:700;line-height:40px;color:#ffffff;position:relative;text-align:left"
+                >Email: </span
+              ><span
+                style="font-family:Poppins, var(--default-font-family);font-size:28px;font-weight:400;line-height:40px;color:#ffffff;position:relative;text-align:left"
+                >Active starting January 2, 2025<br /></span
+              ><span
+                style="font-family:Poppins, var(--default-font-family);font-size:28px;font-weight:700;line-height:40px;color:#ffffff;position:relative;text-align:left"
+              >
+              </span
+              ><span
+                style="font-family:Poppins, var(--default-font-family);font-size:22px;font-weight:400;line-height:40px;color:#ffffff;position:relative;text-align:left"
+                >drkalina23@gmail.com</span
+              >
+            </div>
+            <span
+              style="display:block;height:21px;font-family:Poppins, var(--default-font-family);font-size:14px;font-weight:400;line-height:21px;color:#999999;position:relative;text-align:left;white-space:nowrap;z-index:95;margin:20px 0 0 11px"
+              >©2024 drkalina. All Rights Reserved.</span
+            >
+          </div>
+          <div
+            style="display:flex;width:570px;flex-direction:column;gap:40px;align-items:flex-start;flex-shrink:0;flex-wrap:nowrap;position:relative;z-index:96"
+          >
+            <div
+              style="width:570px;height:49px;flex-shrink:0;font-size:0px;position:relative;z-index:97"
+            >
+              <span
+                style="display:block;height:27px;font-family:Poppins, var(--default-font-family);font-size:18px;font-weight:400;line-height:27px;color:#999999;position:relative;text-align:left;white-space:nowrap;z-index:99;margin:0 0 0 0"
+                >Your Name</span
+              >
+              <div
+                style="width:570px;height:1px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/yqK2QAAJef.png);background-size:cover;background-repeat:no-repeat;position:relative;z-index:98;margin:21px 0 0 0"
+              ></div>
+            </div>
+            <div
+              style="width:570px;height:49px;flex-shrink:0;font-size:0px;position:relative;z-index:100"
+            >
+              <span
+                style="display:block;height:27px;font-family:Poppins, var(--default-font-family);font-size:18px;font-weight:400;line-height:27px;color:#999999;position:relative;text-align:left;white-space:nowrap;z-index:102;margin:0 0 0 0"
+                >Your Mail</span
+              >
+              <div
+                style="width:570px;height:1px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/ZcJWRhYmMh.png);background-size:cover;background-repeat:no-repeat;position:relative;z-index:101;margin:21px 0 0 0"
+              ></div>
+            </div>
+            <div
+              style="width:570px;height:49px;flex-shrink:0;font-size:0px;position:relative;z-index:103"
+            >
+              <span
+                style="display:block;height:27px;font-family:Poppins, var(--default-font-family);font-size:18px;font-weight:400;line-height:27px;color:#999999;position:relative;text-align:left;white-space:nowrap;z-index:105;margin:0 0 0 0"
+                >Your Phone</span
+              >
+              <div
+                style="width:570px;height:1px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/FwvGDr84xW.png);background-size:cover;background-repeat:no-repeat;position:relative;z-index:104;margin:21px 0 0 0"
+              ></div>
+            </div>
+            <div
+              style="width:570px;height:119px;flex-shrink:0;font-size:0px;position:relative;z-index:106"
+            >
+              <span
+                style="display:block;height:27px;font-family:Poppins, var(--default-font-family);font-size:18px;font-weight:400;line-height:27px;color:#999999;position:relative;text-align:left;white-space:nowrap;z-index:108;margin:0 0 0 0"
+                >Message</span
+              >
+              <div
+                style="width:570px;height:1px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/2nBN7GupvG.png);background-size:cover;background-repeat:no-repeat;position:relative;z-index:107;margin:91px 0 0 0"
+              ></div>
+            </div>
             
-            <div style="width:570px;position:absolute;top:17px;left:635px;">
-                <h2 style="font-family:Poppins, sans-serif;font-size:45px;font-weight:700;color:#000000;margin:0 0 20px 0;">About Me</h2>
-                <p style="font-family:Poppins, sans-serif;font-size:14px;line-height:21px;color:#000000;">
-                    Dr. Kalina has more than 24 years of experience in clinical patient care and in developing high-performing cultures...
-                    <br><br>
-                    Richard Kalina received his Doctor of Optometry degree from the University of Alabama at Birmingham...
-                </p>
-            </div>
-            <div style="position:absolute;top:98px;left:100px;width:470px;height:580px;">
-                 <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/StQf9OacQA.png" style="width:100%;">
-            </div>
+            <a href="mailto:drkalina23@gmail.com" style="text-decoration:none;cursor:pointer;">
+              <div
+                style="display:flex;width:125px;padding:10px 20px 10px 20px;gap:5px;justify-content:center;align-items:center;flex-shrink:0;flex-wrap:nowrap;background-color:#00cde5;position:relative;z-index:109"
+              >
+                <span
+                  style="height:24px;flex-shrink:0;flex-basis:auto;font-family:Poppins, var(--default-font-family);font-size:16px;font-weight:600;line-height:24px;color:#ffffff;position:relative;text-align:left;text-transform:uppercase;white-space:nowrap;z-index:110"
+                  >SUBMIT</span
+                >
+                <div
+                  style="width:20px;height:20px;flex-shrink:0;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/UAgHOiq4vC.png);background-size:cover;background-repeat:no-repeat;position:relative;overflow:hidden;z-index:111"
+                ></div>
+              </div>
+            </a>
+          </div>
         </div>
-
-        <div id="specialties" style="width:1440px;height:662px;background-color:#03214c;position:relative;margin:120px 0 0 0">
-            <h2 style="font-family:Poppins, sans-serif;font-size:45px;font-weight:700;color:#ffffff;text-align:center;padding-top:80px;position:relative;z-index:2;">Experience in treating all eye conditions</h2>
-            
-            <div style="display:flex;justify-content:center;gap:30px;margin-top:50px;position:relative;z-index:2;">
-                <div style="width:370px;height:300px;background-color:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:20px;padding:30px;box-sizing:border-box;">
-                    <h3 style="font-family:Poppins, sans-serif;font-size:30px;font-weight:600;color:#ffffff;margin:100px 0 10px 0;">Cataracts</h3>
-                    <p style="font-family:Poppins, sans-serif;font-size:14px;color:#ffffff;">Providing medical care and treatment for cataracts using the newest technologies</p>
-                </div>
-                <div style="width:370px;height:300px;background-color:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:20px;padding:30px;box-sizing:border-box;">
-                    <h3 style="font-family:Poppins, sans-serif;font-size:30px;font-weight:600;color:#ffffff;margin:100px 0 10px 0;">LASIK</h3>
-                    <p style="font-family:Poppins, sans-serif;font-size:14px;color:#ffffff;">Consultations for Lasik, PRK, ICL’s, and lens surgeries</p>
-                </div>
-                <div style="width:370px;height:300px;background-color:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:20px;padding:30px;box-sizing:border-box;">
-                    <h3 style="font-family:Poppins, sans-serif;font-size:30px;font-weight:600;color:#ffffff;margin:100px 0 10px 0;">Glaucoma</h3>
-                    <p style="font-family:Poppins, sans-serif;font-size:14px;color:#ffffff;">Comprehensive care, management, and treatment of glaucoma</p>
-                </div>
-            </div>
-            <div style="width:1440px;height:662px;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/uD7cbQd6Ps.png);background-size:cover;position:absolute;top:0;left:0;opacity:0.3;"></div>
-        </div>
-
-        <div id="achievements" style="width:1440px;height:735px;position:relative;margin:50px auto;">
-            <div style="width:1170px;margin:0 auto;display:flex;gap:50px;">
-                <div style="width:500px;">
-                    <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/Bp5E144rcj.png" style="width:100%;border-radius:30px;">
-                </div>
-                <div style="width:570px;padding-top:100px;">
-                    <h2 style="font-family:Poppins, sans-serif;font-size:45px;font-weight:700;color:#000000;">Achievements & Leadership</h2>
-                    <p style="font-family:Poppins, sans-serif;font-size:16px;line-height:24px;color:#000000;margin-top:20px;">
-                        As the founder of the Valley Eye network and VP of professional services at two of Arizona’s largest Ophthalmology groups, Dr. Kalina has led successful eye care teams...
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div id="contact" style="width:1440px;height:700px;background-color:#161616;position:relative;margin-top:50px;">
-            <div style="display:flex;width:1180px;margin:0 auto;padding-top:100px;gap:50px;">
-                
-                <div style="width:580px;color:#ffffff;">
-                    <h2 style="font-family:Poppins, sans-serif;font-size:100px;font-weight:700;line-height:110px;margin:0;">Let’s<br>Connect.</h2>
-                    <p style="font-family:Poppins, sans-serif;font-size:20px;color:#999999;margin-top:20px;">For consultations, inquiries, or appointments.</p>
-                    
-                    <div style="margin-top:50px;">
-                        <p style="font-family:Poppins, sans-serif;font-size:28px;font-weight:700;">Email: <span style="font-weight:400;">drkalina23@gmail.com</span></p>
-                        <p style="font-family:Poppins, sans-serif;font-size:28px;font-weight:700;">Status: <span style="font-weight:400;">Active starting January 2, 2025</span></p>
-                    </div>
-                </div>
-
-                <div style="width:570px;">
-                    <div style="border-bottom:1px solid #333;padding:20px 0;color:#999;font-family:Poppins, sans-serif;font-size:18px;">Your Name</div>
-                    <div style="border-bottom:1px solid #333;padding:20px 0;color:#999;font-family:Poppins, sans-serif;font-size:18px;">Your Email</div>
-                    <div style="border-bottom:1px solid #333;padding:20px 0;color:#999;font-family:Poppins, sans-serif;font-size:18px;">Message</div>
-                    
-                    <a href="mailto:drkalina23@gmail.com" style="text-decoration:none;cursor:pointer;margin-top:40px;display:inline-block;">
-                        <div style="background-color:#00cde5;color:#ffffff;padding:15px 30px;font-family:Poppins, sans-serif;font-weight:600;text-transform:uppercase;display:flex;align-items:center;gap:10px;">
-                            SEND EMAIL
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
+      </div>
+      <div
+        style="width:1440px;height:750px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/JadAKNK2d8.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:0;left:0;z-index:1"
+      ></div>
+      <div
+        style="width:1440px;height:434px;background-position:center;background-image:url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-01-22/LMLn8DLh4S.png);background-size:cover;background-repeat:no-repeat;position:absolute;top:0;left:0;z-index:3"
+      ></div>
     </div>
-</body>
+  </body>
 </html>
